@@ -1,0 +1,26 @@
+.mat-mdc-form-field{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;               /* Adds space between fields */
+    max-width: 400px;        /* Adjust the form width */
+    margin: auto;            /* Center the form */
+  }
+  
+  input {
+    padding: 8px;
+    width: 100%;             /* Make input fields take full width */
+    box-sizing: border-box;   /* Ensure padding is included in width */
+  }
+  
+  button {
+    align-self: flex-start;   /* Align the button to the left */
+    padding: 10px 20px;
+    background-color: #3f51b5;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #303f9f;
+  }
